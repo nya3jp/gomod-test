@@ -1,3 +1,7 @@
 package alpha
 
-var Message = "alpha v0.1.0"
+import (
+	"github.com/nya3jp/gomod-test/beta"
+)
+
+var Message = beta.Message
